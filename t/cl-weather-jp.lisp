@@ -5,10 +5,15 @@
         :prove))
 (in-package :cl-weather-jp-test)
 
-;; NOTE: To run this test file, execute `(asdf:test-system :cl-weather-jp)' in your Lisp.
+(plan 3)
 
-(plan nil)
+(ok (city-forecasts "東京")
+    "Can retrieve forecasts for 東京")
 
-;; blah blah blah.
+(ok (city-forecasts "福島")
+    "Can retrieve forecasts for 福島")
+
+(is-error (city-forecasts "ホーチミン")
+          'unknown-location)
 
 (finalize)

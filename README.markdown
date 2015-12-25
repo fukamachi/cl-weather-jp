@@ -1,5 +1,7 @@
 # cl-weather-jp
 
+[![Build Status](https://travis-ci.org/fukamachi/cl-weather-jp.svg?branch=master)](https://travis-ci.org/fukamachi/cl-weather-jp)
+[![Coverage Status](https://coveralls.io/repos/fukamachi/cl-weather-jp/badge.svg?branch=master)](https://coveralls.io/r/fukamachi/cl-weather-jp)
 [![Quicklisp dist](http://quickdocs.org/badge/cl-weather-jp.svg)](http://quickdocs.org/cl-weather-jp/)
 
 cl-weather-jp allows you to retrieve the weather in Japan via [Livedoor Weather](http://weather.livedoor.com).
